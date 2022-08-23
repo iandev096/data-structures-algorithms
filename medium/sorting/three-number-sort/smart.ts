@@ -1,3 +1,8 @@
+/**
+ *
+ * Complexity analyses
+ * O(n) time | O(1) space
+ */
 export function threeNumberSort(array: number[], order: number[]) {
   let first = 0;
   let last = array.length - 1;
