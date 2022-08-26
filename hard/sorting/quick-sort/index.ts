@@ -9,8 +9,8 @@
  * will always be the first item in the list.
  *
  * Complexity analyses
- * Best case: O(nlog(n)) time | O(log(n)) space (When a pivot divides the entire list in half)
- * Average case: O(nlog(n)) time | O(log(n)) space
+ * Best case: O(nlog(n)) time | O(n) space (When a pivot divides the entire list in half)
+ * Average case: O(nlog(n)) time | O(n) space
  * Worst case: O(n^2) time | O(log(n)) space
  */
 
