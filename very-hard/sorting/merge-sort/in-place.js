@@ -11,9 +11,9 @@
  * How are we able to do this without creating new arrays? We use the concept of pointers or in this case, the indexes of the array.
  *
  * Complexity analyses
- * Best case: O(nlog(n)) time | O(nlog(n) space
- * Average case: O(nlog(n)) time | O(nlog(n) space
- * Worst case: O(nlog(n)) time | O(nlog(n) space
+ * Best case: O(nlog(n)) time | O(n) space
+ * Average case: O(nlog(n)) time | O(n) space
+ * Worst case: O(nlog(n)) time | O(n) space
  */
 
 function mergeSort(array) {
