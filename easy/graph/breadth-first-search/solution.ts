@@ -19,6 +19,9 @@ export class Node {
     breadthFirstSearch(array: string[]) {
       const queue: Node[] = [this];
   
+    /**
+     * O(v+e) time | O(v) space
+     */
       while (queue.length > 0) {
         const cur = queue.shift();
         array.push(cur!.name);
